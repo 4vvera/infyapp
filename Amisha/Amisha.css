@@ -1,0 +1,185 @@
+html,body{
+  height: 99%;
+  width: 99%;
+}
+*{
+  box-sizing: border-box;
+}
+.banner{
+  background-color: #f8a0a9;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #F2CF8D;
+  box-shadow: 1px 3px 30px 1px #f88787;
+  outline: 10px 10px #f2b226 groove;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #F2CF8D ;
+  font-family: fantasy;
+  height: 120px;
+  text-align: right;
+  font-style: oblique;
+}
+h1{
+  font-size: 0.9em;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+  font-family: verdana;
+  font-size: 20px;
+  color: #d21919;
+}
+
+
+body{
+  background-color: #e8b7ab;
+}
+
+.container{
+    border:2px #7d0434 solid;
+    position: relative;
+    top: 2px;
+    margin: 15px;
+    padding: 10px;
+    height: 700px;
+    overflow: hidden;
+    background-color: #fbe5d0;
+    box-shadow: 1px 3px 30px 1px #7d0434;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: lightgoldenrodyellow;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color:  #700047;;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:  #700047;;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.left{
+  width: 48%;
+  height: 600px;
+  border:none;
+  margin: 1px;
+  padding: 3px;
+  overflow: auto;
+}
+
+.right{
+  width: 50%;
+  position: absolute;
+  right: 5px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  color: blue;
+  background-color: peachpuff;
+}
+
+h1 {
+  color: #ac6120;
+}
+p {
+  color: #80007b;
+}
+h2 {
+  color: #0e7150;
+}
+a:hover {
+  background-color: #d8a06f;
+}
+h3{
+  color: #8d1111;
+}
+.collapsible {
+  background-color: #f2bae3;
+  color: #131111;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #bf69ac;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: Ivory;
+}
