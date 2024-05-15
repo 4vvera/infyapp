@@ -8,7 +8,7 @@
 }
 
 body {
-  background:white;
+  background:#9bcfd4ff;
   min-height:100vh;
   overflow-x:hidden;
   
@@ -29,7 +29,7 @@ header {
 
 .logo{
   font-size:2em;
-  color:#359381;
+  color:#ffffff;
   pointer-events: none;
   margin-right:270px;
   
@@ -37,7 +37,7 @@ header {
 
 .navigation a{
   text-decoration:none;
-  color:#359381;
+  color:#ffffff;
   padding:6px 15px;
   border-radius:20px;
   margin:0 10px;
@@ -45,7 +45,7 @@ header {
 }
 
 .navigation a:hover{
-  background:#359381;
+  background:#7bc1c6ff;
   color:white
 }
 
@@ -75,19 +75,29 @@ header {
 
 .sec{
   position:relative;
-  background:#003329;
+  background:#d0f8fbff;
   padding:100px;
   
 }
 
 .sec h2 {
   font-size:3em;
-  color:white;
+  color:#34787fff;
   margin-bottom:10px;
 }
 
 .sec p{
   font-size:1em;
-  color:white;
+  color:#37767bff;
   font-weight:300;
 }
+h2{
+  text-align: left;
+}
+title.oblique {
+  font-style: oblique;
+}
+ .p {
+   font-family: "Copperplate", Times, serif;
+ }
+
